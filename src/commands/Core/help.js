@@ -157,7 +157,7 @@ async function createInitialHelpMenu() {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Made with Kshitiz" 
     });
     embed.setTimestamp();
 
@@ -167,13 +167,13 @@ async function createInitialHelpMenu() {
         .setStyle(ButtonStyle.Danger);
 
     const supportButton = new ButtonBuilder()
-        .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setLabel("Want help ?!")
+        .setURL("https://www.instagram.com/1ost.kshitiz")
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
-        .setLabel("Learn from Touchpoint")
-        .setURL("https://www.youtube.com/@TouchDisc")
+        .setLabel("Gun'lol")
+        .setURL("https://guns.lol/kshitiz.gg")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
