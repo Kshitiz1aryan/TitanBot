@@ -160,12 +160,7 @@ async function createInitialHelpMenu() {
         text: "Made with Kshitiz" 
     });
     embed.setTimestamp();
-
-    const bugReportButton = new ButtonBuilder()
-        .setCustomId(BUG_REPORT_BUTTON_ID)
-        .setLabel("Report Bug")
-        .setStyle(ButtonStyle.Danger);
-
+    
     const supportButton = new ButtonBuilder()
         .setLabel("Want help ?!")
         .setURL("https://www.instagram.com/1ost.kshitiz")
